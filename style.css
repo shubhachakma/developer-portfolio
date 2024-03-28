@@ -7,16 +7,20 @@ body {
   h1{
     font-size: 50px;
   }
+  h2{
+    font-size: 40px;
+  }
   .orange-color{
     color: orange;
   }
-  section{
+  .flexble{
     display: flex;
     margin-bottom: 250px;
   }
   .welcome{
     width: 50%;
     padding-left: 5%;
+    
   }
   .welcome img{
     width: 80%;
@@ -40,3 +44,30 @@ background-image: linear-gradient(rgb(221, 148, 14), rgb(212, 77, 53)
     background-repeat: no-repeat;
     background-position: right;
   }
+  .experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .web-developer{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px  rgb(224, 109, 27);
+  
+  }
+ #web-developer-experi{
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 2;
+ }
+ #web-developer-experi2{
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 2;
+ }
+ footer p{
+  text-align: center;
+ }
