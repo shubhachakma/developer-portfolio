@@ -12,6 +12,7 @@ body {
   }
   section{
     display: flex;
+    margin-bottom: 250px;
   }
   .welcome{
     width: 50%;
@@ -33,4 +34,9 @@ background-image: linear-gradient(rgb(221, 148, 14), rgb(212, 77, 53)
   .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+  }
+  .dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
   }
