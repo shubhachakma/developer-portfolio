@@ -71,3 +71,28 @@ background-image: linear-gradient(rgb(221, 148, 14), rgb(212, 77, 53)
  footer p{
   text-align: center;
  }
+ #Calculator{
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(90, 152, 110), rgb(5, 81, 78));
+  border-image-slice: 2;
+ }
+ .Calculator{
+  width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px  rgb(43, 20, 3);
+  
+ }
+ .link{
+  text-align: center;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(80, 61, 24), rgb(212, 77, 53)
+);
+padding: 10px 40px;
+    
+    color: white;
+    font-weight: 400;
+    border-radius: 100px;
+ }
